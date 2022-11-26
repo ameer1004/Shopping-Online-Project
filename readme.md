@@ -28,6 +28,6 @@
 2. Go to Front-end folder (cd front-end) and run: npm start.
 3. The server will connect to MongoDB.
 
-- Hosting for My Application:[Shopping Online Website](https://shopping-online-project.herokuapp.com/login)
+- Hosting for My Application:[Shopping Online Website](https://shopping-online-project.herokuapp.com/login){:target="\_blank"}
 
 - All Rights reserved - Ameer Emran 2022
