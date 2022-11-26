@@ -1,0 +1,3 @@
+name: Ananas price: 50 quantity: 1 total price: 50
+name: bambabesli price: 8 quantity: 1 total price: 8
+name: Bamba price: 5 quantity: 1 total price: 5

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+.form-container {
+  background: -webkit-gradient(linear, left top, left bottom, from(#aa4b6b), color-stop(#6b6b83), to(#3b8d99));
+  background: linear-gradient(to bottom, #aa4b6b, #6b6b83, #3b8d99);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.inpu-signin {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 50%;
+}
+
+.btn-signin {
+  width: 20%;
+  height: 40px;
+  margin: 10px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: block;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+a {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.para-question {
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.inpu-signup {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 50%;
+}
+
+.btn-signup {
+  width: 20%;
+  height: 40px;
+  margin: 10px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: block;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.textfield {
+  background-color: white;
+  color: black;
+  width: 15%;
+}
+
+.order-titles {
+  text-align: center;
+}
+
+.payment-input {
+  text-align: center;
+}
+
+.table-order-details {
+  margin-left: 40%;
+}
+
+.errormessage {
+  color: white;
+}
+
+.storeMessage {
+  position: absolute;
+  right: 2rem;
+  top: 5rem;
+  width: 200px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.btn-shopping {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.btn-shopping:hover {
+  background-color: gold;
+}
+
+@media screen and (max-width: 375px) {
+  .storeMessage {
+    font-size: 15px;
+    top: 8rem;
+  }
+  .para-question {
+    font-size: 15px;
+  }
+  .link-to-register {
+    font-size: 15px;
+  }
+  .header h2 {
+    font-size: 70%;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header h2 {
+    font-size: 100%;
+    margin-left: 2rem;
+  }
+  .para-question {
+    font-size: 15px;
+  }
+  .link-to-register {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
